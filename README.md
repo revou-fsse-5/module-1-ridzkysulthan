@@ -12,8 +12,8 @@ Selamat datang di website APM Pisang yang berisi tentang UMKM dari Bandung yang 
 
 ## 🍌 Website APM Pisang
 
-[![main-page](./images/readme1.jpg)]()
+[![main-page](./images/readme1.jpg)](https://apmpisangofficial.netlify.app)
 
 ## 🍌 Link 
 
-[Menuju Website]()
+[Menuju Website](https://apmpisangofficial.netlify.app)
