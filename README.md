@@ -8,11 +8,26 @@ Selamat datang di website APM Pisang yang berisi tentang UMKM dari Bandung yang 
 | Software & Tools                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------|
 |![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)            |
-|![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)               |
+|![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)               |
 
 ## 🍌 Website APM Pisang
 
-[![main-page](./images/readme1.jpg)](https://apmpisangofficial.netlify.app)
+[![main-page](./readme-img/readme1.jpg)](https://apmpisangofficial.netlify.app)
+
+## 🍌 Building Process
+
+1. Making the structure of the html and also add the content.
+
+![add structure to html and content](./readme-img/readme2.jpg)
+
+2. Add css styling, fonts, etc that I want to use.
+
+![add css style](./readme-img/readme3.jpg)
+
+3. Add responsiveness for a different layout devices using media query.
+
+![add responsiveness](./readme-img/readme4.jpg)
 
 ## 🍌 Link 
 

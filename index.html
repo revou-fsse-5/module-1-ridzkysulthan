@@ -8,84 +8,171 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style-home.css">
-    <link rel="stylesheet" href="./css/style-about-page.css">
-    <link rel="stylesheet" href="./css/style-contact.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     
 </head>
 <body>
-            <!-- Header -->
-            <header>
-            <div class="logo">
-                <a href="#"><img src="./images/Logobaru.png" alt="logo-apm-pisang" /></a>
+
+    <nav>
+        <div class="">
+            <img src="./images/Logobaru.png" alt="my-logo" />
+        </div>
+        <div id="menu-icon" class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul id="menu-list" class="hidden">
+            <li><a href="#">Home</a</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Menu</a></li>
+            <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="hero-container">
+            <div class="hero-row">
+                <div class="hero-col">
+                    <h1 class="hero-title">APM Pisang</h1>
+                    <p>UMKM Asal Bandung yang menjual pisang goreng tepung dengan topping yang melimpah dan variatif<br><br>
+
+                        <b>APM Pisang Bandung</b>
+                    </p>
+                </div>
             </div>
-                <!-- Navigation -->
-            <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </nav>
-            </header>
-            <!-- Home Page -->
-            <section class="home-page" id="home">
-            <img
-                src="./images/pisang-hero.png"
-                alt="cat-home-page"
-            />
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+            <!-- about -->
+            <section id="about">
+                <div class="container">
+                    <h2 class="section-title">Kenapa APM Pisang</h2>
+                    <div class="about-row">
+                        <div class="about-col">
+                            <div class="about-icon">
+                                <img src="./images/quality.png" alt="quality icon">
+                            </div>
+                            <div class="about-text">
+                                <h3>Produk Berkualitas Tinggi</h3>
+                                <p>
+                                    Kami memastikan setiap buah pisang yang kami jual memenuhi standar kualitas tinggi sehingga pelanggan mendapatkan produk yang segar dan enak.</p>
+                            </div>
+                        </div>
+                        <div class="about-col">
+                            <div class="about-icon">
+                                <img src="./images/variaty.png" alt="variaty icon">
+                            </div>
+                            <div class="about-text">
+                                <h3>Varian Produk yang Beragam</h3>
+                                <p>
+                                    Varian produk ini memungkinkan pelanggan untuk menikmati berbagai rasa dan inovasi kuliner berbahan dasar pisang yang tidak membosankan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-row">
+                        <div class="about-col">
+                            <div class="about-icon">
+                                <img src="./images/price.png" alt="price icon">
+                            </div>
+                            <div class="about-text">
+                                <h3>Harga Terjangkau</h3>
+                                <p>APM Pisang selalu berusaha memberikan harga yang kompetitif tanpa mengurangi kualitas produk, sehingga pelanggan bisa menikmati produk kami tanpa harus merogoh kocek dalam-dalam.</p>
+                            </div>
+                        </div>
+                        <div class="about-col">
+                            <div class="about-icon">
+                                <img src="./images/responsive.png" alt="responsive icon">
+                            </div>
+                            <div class="about-text">
+                                <h3>Dukungan Pelanggan yang Responsif</h3>
+                                <p>Tim layanan pelanggan kami siap membantu menjawab pertanyaan, menangani keluhan, dan memberikan informasi terkait produk dengan ramah dan profesional.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <!-- Description Section -->
-            <article class="description-pisang">
-            <h1>APM Pisang</h1>
-            <p>
-                APM Pisang: Produk olahan pisang yang berkualitas
-            </p>
-        
-        <br>
-        
-            <h1>Kenapa APM Pisang?</h1>
-            <p>
-                Di APM Pisang, kami sangat menyukai pisang dan berkomitmen untuk mengubahnya menjadi makanan lezat yang menggoda selera Anda. Kami percaya bahwa pisang bukan hanya buah biasa; pisang adalah harta karun kuliner yang menunggu untuk dieksplorasi.
-            </p> <br>
-            
-            </article>
-        
-        <!-- About Section -->
-        <section class="about-page" id="about">
-        <h1>Tentang Kami</h1>
-        <p>Welcome to APM Pisang – APM Pisang adalah Usaha Mikro, Kecil, dan Menengah (UMKM) yang lahir dari kecintaan kami terhadap pisang dan semangat untuk memberikan nilai tambah bagi hasil bumi Indonesia. Kami percaya bahwa pisang tak hanya lezat, tetapi juga memiliki potensi besar untuk disulap menjadi berbagai makanan dan minuman yang unik dan disukai semua orang.
-        <br><br>
-        APM Pisang berdiri sejak 2022 asal Bandung – Sejak saat itu, kami terus berinovasi dan bereksperimen dengan berbagai olahan pisang untuk menghadirkan produk-produk yang tak hanya lezat, tetapi juga memiliki kualitas yang tinggi.</p>
-        </section><br>
-        
-        <!-- Contact Section -->
-        <div class="box-contact" id="contact">
-        <h1>Contact Us</h1>
-        <section class="contact-page">
-            <form>
-            <input type="text" name="your-name" id="your-name" placeholder="Your Name" required>
-            <input type="email" name="your-email" id="your-email" placeholder="Your Email" required>
-            <input type="password" name="your-password" id="your-password" placeholder="Your Password" required>
-            <textarea name="message" id="message" rows="8" placeholder="Write your message here..."></textarea>
-        
-            <p>Tertarik?</p>
-            <span>
-            <input type="radio" id="mitra" name="" value="mitra">
-            <label for="mitra">Mitra</label>
-            <input type="radio" id="konsultasi" name="" value="konsultasi">
-            <label for="konsultasi">Konsultasi</label>
-            </span>
-            
-            <input type="submit" name="submit-button" id="submit-button">
-            </form>
-        
+            <!-- programs -->
+            <section id="programs">
+                <div class="container">
+                    <h2 class="section-title">Visi & Misi</h2>
+
+                    <div class="program-grid">
+                        <div class="grid-item" id="visi-img">
+                            <img loading="lazy" src="./images/banana-icon.jpg" alt="visi">
+                        </div>
+                        <div class="grid-item" id="visi-text">
+                            <h3>Visi</h3>
+                            <p>Kami berkomitmen untuk menjadi pemimpin dalam industri camilan berbahan dasar pisang, terus berinovasi, dan menyebarkan kebahagiaan ke seluruh pelosok Indonesia dan dunia.</p>
+                        </div>
+                        <div class="grid-item" id="misi-img">
+                            <img loading="lazy" src="./images/banana-icon.jpg" alt="misi">
+                        </div>
+                        <div class="grid-item" id="misi-text">
+                            <h3>Misi</h3>
+                            <p>Misi kami adalah memberikan pengalaman kuliner terbaik dengan inovasi pada produk berbasis pisang, memastikan setiap camilan yang kami sajikan berkualitas tinggi dan menggembirakan.</p>
+                        </div>
+                    </div>
+                </div>
+        </article>
+
+        <!-- Product -->
+        <section id="product">
+            <div class="container bg-img">
+                <h2 class="section-title relative">Product</h2>
+                <div class="card-list">
+                    <a href="#" class="card-item">
+                        <img src="./images/pisangcoklat.jpeg" alt="Card Image">
+                        <span class="designer">Rp 12.000</span>
+                        <h3>Pisang Coklat</h3>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right card-icon"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="card-item">
+                        <img src="./images/pisangkeju.jpeg" alt="Card Image">
+                        <span class="designer">Rp 12.000</span>
+                        <h3>Pisang Keju</h3>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right card-icon"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="card-item">
+                        <img src="./images/pisangtiramisu.jpeg" alt="Card Image">
+                        <span class="designer">Rp 15.000</span>
+                        <h3>Pisang Tiramisu</h3>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right card-icon"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </section>
-        </div>
+
+        <!-- profile -->
+        <section>
+            <div class="container">
+                <div class="card-container">
+                    <div class="card-item">
+                        <img loading="lazy" src="./images/usericon.png" alt="profile picture">
+                        <h3>Ridzky Sulthan</h3>
+                        <p class="profile-title">Owner & Founder</p>
+                        <p>is the founder of the APM Pisang branch in Bandung. He has a great enthusiasm for culinary arts, especially in creating innovative banana-based products.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
         <!-- Footer -->
         <footer>
             <p>Copyright &copy; 2024 All Rights Reserved.</p>
         </footer>
     </body>    
+<script src= "./script.js"></script>
 </html>
